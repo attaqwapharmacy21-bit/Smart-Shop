@@ -10,7 +10,6 @@
             margin: 0px;
             box-sizing: border-box;
         }
-        /* Header: keep visual design but make sizes responsive */
         .header{
             text-align: center;
             background-image: url(13.jpg);
@@ -31,7 +30,6 @@
             align-items: center;
             padding: 2rem 1rem;
         }
-        /* Responsive header text sizes */
         .header h1{
             font-size: clamp(1.6rem, 5vw, 3.2rem);
             color: inherit;
@@ -43,8 +41,6 @@
             font-size: clamp(1rem, 3.2vw, 1.6rem);
             margin-top: 0.2rem;
         }
-
-        /* Grid container for product cards (responsive: 1 / 2 / 3 columns) */
         .container{
             display: grid;
             grid-template-columns: 1fr;
@@ -53,7 +49,6 @@
             padding: 20px;
         }
 
-        /* Card keeps its inner design; use flex column so button stays at bottom */
         .card{
             display: flex;
             flex-direction: column;
